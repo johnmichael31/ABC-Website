@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #008374;
+  --color-primary: #042E20;
   --color-secondary: #f85a40;
 }
 
@@ -383,7 +383,7 @@ section {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: var(--color-secondary);
+    background-color: #042E20;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -1979,6 +1979,9 @@ section {
 @media (max-width: 992px) {
   .hero #hero-image {
     display: none;
+  }
+  .header .logo h1{
+    font-size: 16.5px;
   }
 }
 
